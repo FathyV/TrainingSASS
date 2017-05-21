@@ -1,0 +1,9 @@
+@import 'components/services.scss';
+
+.services{
+    @include create-services(
+        $services-list-item-width,
+        $services-list-item-title-font-size,
+        $services-list-item-description-font-size
+    );
+}

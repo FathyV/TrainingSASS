@@ -1,0 +1,11 @@
+@import 'components/slogan.scss';
+
+.slogan{
+    @include create-slogan(
+        $slogan-background-color,
+        $slogan-top-border-color,
+        $slogan-bottom-border-color,
+        $slogan-content-align,
+        $slogan-content-font-size
+    );
+}

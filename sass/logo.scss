@@ -1,0 +1,8 @@
+@import 'components/logo.scss';
+
+.logo{
+    @include create-logo(
+        $logo-image-url,
+        $logo-title-font-size
+    );
+}

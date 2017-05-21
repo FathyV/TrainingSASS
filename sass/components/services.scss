@@ -1,0 +1,18 @@
+@import 'list.scss';
+
+@mixin create-services(
+    $list-item-width,
+    $list-item-title-font-size,
+    $list-item-description-font-size
+){
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @include create-list(
+        $list-item-width,
+        $list-item-title-font-size,
+        $list-item-description-font-size
+    );
+}
+

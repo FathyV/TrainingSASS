@@ -1,0 +1,21 @@
+@mixin create-logo(
+    $image-url,
+    $title-font-size
+){
+    text-align: center;
+
+    &__image{
+        content: url($image-url);
+        width: 200px;
+        height: 200px;
+    }
+
+    &__title{
+        font-size: $title-font-size;
+        text-align: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

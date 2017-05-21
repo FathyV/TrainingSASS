@@ -1,0 +1,41 @@
+.logo {
+  text-align: center; }
+  .logo__image {
+    content: url("http://qidian.qpic.cn/qdbimg/349573/2750457/180");
+    width: 200px;
+    height: 200px; }
+  .logo__title {
+    font-size: 45px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+
+.slogan {
+  background-color: white; }
+
+.slogan__top-border {
+  border-color: grey; }
+
+.slogan__bottom-border {
+  border-color: grey; }
+
+.slogan__content {
+  font-size: 30px;
+  text-align: center;
+  margin: 40px; }
+
+.services {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+  .services__list__item {
+    float: left;
+    width: 25%; }
+    .services__list__item__title {
+      font-size: 25px;
+      font-weight: bold;
+      text-align: left; }
+    .services__list__item__description {
+      font-size: 18px;
+      text-align: left; }

@@ -1,0 +1,22 @@
+@mixin create-list(
+    $list-item-width,
+    $list-item-title-font-size,
+    $list-item-description-font-size
+){
+    &__list{
+        &__item{
+            float: left;
+            width: $list-item-width;        
+            &__title{
+                font-size: $list-item-title-font-size;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            &__description{
+                font-size: $list-item-description-font-size;
+                text-align: left;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.slogan{
+    
+}
+
+.slogan__top-border{
+    border-color: black;
+}
+
+.slogan__bottom-border{
+    border-color: black;
+}
+
+.slogan__content{
+    text-align: center;
+    margin: 40px;
+}
+

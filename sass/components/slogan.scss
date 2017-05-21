@@ -1,0 +1,25 @@
+@mixin create-slogan(
+    $background-color,
+    $top-border-color,
+    $bottom-border-color,
+    $content-align,
+    $content-font-size
+){
+    &{
+        background-color: $background-color;
+    }
+
+    &__top-border{
+        border-color: $top-border-color;
+    }
+
+    &__bottom-border{
+        border-color: $bottom-border-color;
+    }
+
+    &__content{
+        font-size: $content-font-size;
+        text-align: $content-align;
+        margin: 40px;
+    }
+}
